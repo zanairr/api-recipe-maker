@@ -2,7 +2,6 @@ from openai import OpenAI
 import dotenv
 import os
 import tkinter as tk
-import customtkinter
 
 
 dotenv.load_dotenv()
