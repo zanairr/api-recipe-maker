@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonairecipecreator"
+version = "0.1.0"
+description = "A useful python recipe creating assistant."
+authors = ["Zanair Mardhani"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.28.0"
+dotenv = "^0.0.5"
+customtkinter = "^5.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
